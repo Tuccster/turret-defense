@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bbaee6c1ba9384a9066ec515bd19bd, type: 3}
+  m_Name: level_0
+  m_EditorClassIdentifier: 
+  waves:
+  - name: Baby steps
+    instructions:
+    - method: 2
+      args: enemy_armored,10,1
+    - method: 0
+      args: 2
+    - method: 1
+      args: enemy_armored,2,2
+  - name: Wave haha 2 epic name
+    instructions:
+    - method: 1
+      args: enemy_basic,2,10
+    - method: 2
+      args: enemy_basic,100,1
